@@ -133,7 +133,6 @@
   background-color: rgb(248, 239, 239, 0.5);
   margin-top: 23px;
   position: relative;
-  padding-bottom: 10px;
 }
 
 .home-webinars h2 {
@@ -174,51 +173,10 @@
   text-decoration: none;
   color: black;
 }
-
-.testimonials {
-  margin-bottom: 50px;
-  margin-top: 30px;
-  background-color: white;
-}
-
-.testimonials h2 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.cardsContainer {
-  display: flex;
-  justify-content: center;
-}
-.card {
-  height: 300px;
-  border-radius: 10px;
-  width: 500px;
-  background-color: rgb(206, 205, 205);
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.card span img {
-  height: 45px;
-  padding: 2px;
-  padding-top: 37px;
-}
-
-.card p {
-  font-family: var(--font1);
-  font-size: 17px;
-  padding-left: 17px;
-}
-
-.name {
-  font-weight: 700;
-  padding-top: 10px;
-}
 /* .home-webinars{} */
 .footer {
   height: 50px;
-  background: transparent linear-gradient(259deg, #fd8642, #ff7b54) 0 0
-    no-repeat padding-box;
+  background-color: var(--main-bg-color);
   display: flex;
   align-items: center;
   justify-content: center;
