@@ -4,7 +4,7 @@
 }
 
 .navigation {
-  margin-top: 25px;
+  padding-top: 25px;
   font-family: var(--font1);
   height: 74px;
   display: flex;
