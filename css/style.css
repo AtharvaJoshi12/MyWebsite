@@ -78,6 +78,17 @@
   cursor: pointer;
   color: white;
 }
+
+.mobile-navbar-btn {
+  display: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.crossIcon {
+  display: none;
+}
 .content {
   height: 100%;
   display: flex;
@@ -278,3 +289,5 @@
   padding: 14px 16px;
   position: relative;
 }
+
+/* ------------------------------------- Media Queries  --------------------------------- */
