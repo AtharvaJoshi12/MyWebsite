@@ -196,6 +196,8 @@
   background-color: rgb(206, 205, 205);
   margin-left: 20px;
   margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 
 .card span img {
@@ -214,6 +216,36 @@
   font-weight: 700;
   padding-top: 10px;
 }
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* .home-webinars{} */
 .footer {
   height: 50px;
