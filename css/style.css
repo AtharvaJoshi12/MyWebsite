@@ -15,6 +15,7 @@
 
 .nav-left {
   display: flex;
+  width: 100%;
 }
 
 .nav-left a {
