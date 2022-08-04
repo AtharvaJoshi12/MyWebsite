@@ -261,3 +261,20 @@
 .footer a {
   color: white;
 }
+
+.scrollTopStyle {
+  background-color: rgb(208 208 202);
+  position: fixed;
+  right: 2%;
+  bottom: 5%;
+  z-index: 1;
+  border-radius: 50px;
+}
+.scrollTopStyle img {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 14px 18px;
+  position: relative;
+}
