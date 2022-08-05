@@ -127,7 +127,7 @@
     padding: 10px;
   }
   .webinar-content-left button {
-    padding: 6px 27px;
+    padding: 6px 0px;
     background-color: #fd7b30;
     /* background-color: red; */
     border: none;
@@ -161,6 +161,7 @@
   } */
 
   .card {
-    height: 380px;
+    height: 420px;
+    padding-right: 10px;
   }
 }
