@@ -165,3 +165,41 @@
     padding-right: 10px;
   }
 }
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-left {
+    padding: 0;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+
+  .content-left h1 {
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+
+  .nav-left ul {
+    margin: -11px 51px;
+  }
+
+  .webinar-content-left {
+    padding: 0;
+    text-align: center;
+  }
+
+  .webinar-content-left button {
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+
+  #freeFirstHr {
+    padding-top: 185px;
+    padding-bottom: 30px;
+  }
+}
