@@ -34,7 +34,8 @@
   margin-top: -12px;
 }
 .nav-left span img {
-  border-radius: 220px;
+  height: 96px;
+  margin-right: -61px;
 }
 
 .nav-left ul {
