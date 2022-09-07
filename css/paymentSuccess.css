@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home-webinars {
+  margin-top: 60px;
+}
+.payment {
+  margin-top: 10px;
+  text-align: center;
+}
+.payment img {
+  height: 200px;
+}
+.payment p {
+  margin: 10px;
+  font-family: var(--font1);
+}
+
+.footer {
+  margin-top: 64px;
+}
