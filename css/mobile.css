@@ -133,7 +133,8 @@
     padding: 10px;
   }
   .webinar-content-left button {
-    padding: 6px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: #fd7b30;
     /* background-color: red; */
     border: none;
