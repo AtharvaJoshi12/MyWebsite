@@ -35,8 +35,8 @@
     margin-right: 0px;
   }
 
-  .nav-right {
-    /* background-color: green; */
+  .nav-right button {
+    margin-top: 13px;
   }
 
   #firstHr {

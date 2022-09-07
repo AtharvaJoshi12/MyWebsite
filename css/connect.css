@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.eS {
+  margin-top: 100px;
+}
+.emailSection {
+  /* background-color: yellow; */
+  /* text-align: center; */
+  margin-top: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.emailSection p {
+  display: flex;
+  justify-content: center;
+}
+
+.emailSection p span {
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.emailSection p img {
+  height: 30px;
+}
+
+.socialSection {
+  margin-top: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.socialSection a p {
+  display: flex;
+  justify-content: center;
+}
+
+.socialSection img {
+  height: 40px;
+}
+
+.footer {
+  margin-top: 38px;
+}
+
+@media only screen and (max-width: 600px) {
+  .emailSection {
+    flex-direction: column;
+  }
+}
