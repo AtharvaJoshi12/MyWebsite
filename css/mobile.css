@@ -168,8 +168,17 @@
   } */
 
   .card {
-    height: 420px;
+    width: 85%;
+    height: 100%;
     padding-right: 10px;
+  }
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card p {
+    padding-bottom: 15px;
   }
 }
 
@@ -208,5 +217,18 @@
   #freeFirstHr {
     padding-top: 185px;
     padding-bottom: 30px;
+  }
+
+  .card {
+    width: 100%;
+    padding-right: 10px;
+    height: 400px;
+  }
+  .cardsContainer {
+    display: flex;
+  }
+
+  .card p {
+    padding-bottom: 15px;
   }
 }
