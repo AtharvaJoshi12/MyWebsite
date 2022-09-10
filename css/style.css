@@ -35,6 +35,7 @@
 }
 .nav-left span img {
   height: 96px;
+  margin-left: -17px;
   margin-right: -61px;
 }
 

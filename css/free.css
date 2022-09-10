@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: var(--font1);
+}
+
+p {
+  font-family: var(--font1);
+}
+
+.learn {
+  display: flex;
+  flex-direction: row;
+}
+
+.learnLeft {
+  background-color: rgba(247, 241, 241, 0.918);
+  margin-left: 50px;
+  margin-top: 80px;
+  border: 1.5px solid rgb(165, 144, 144);
+  padding: 30px;
+  padding-right: 60px;
+  padding-left: 15px;
+  border-radius: 4px;
+}
+
+.learnLeft img {
+  height: 193px;
+  margin-top: 14px;
+  margin-left: -10px;
+}
+
+.learnRight {
+  margin-top: 100px;
+  margin-left: 225px;
+}
+
+.learnBottom {
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.home-webinars {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.home-webinars h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.webinarContent img {
+  height: 600px;
+}
+
+#img2 {
+  margin-top: -24px;
+  margin-left: -2px;
+}
+
+.cetification img {
+  height: 400px;
+  margin-bottom: 100px;
+}
