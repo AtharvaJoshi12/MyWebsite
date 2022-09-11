@@ -65,3 +65,29 @@ p {
   height: 400px;
   margin-bottom: 100px;
 }
+
+.joinButton {
+  margin-left: 100px;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+.joinButton button {
+  padding: 6px 27px;
+  background-color: #fd7b30;
+  border: none;
+  border-radius: 4px;
+  font-size: 21px;
+  color: white;
+  margin-bottom: 19px;
+  font-family: var(--font1);
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.content {
+  margin-top: -20px;
+}
+
+.webinar-content-right {
+  margin-top: 123px;
+}
