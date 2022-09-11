@@ -91,3 +91,45 @@ p {
 .webinar-content-right {
   margin-top: 123px;
 }
+
+@media only screen and (max-width: 600px) {
+  .webinar-content-left h1 {
+    margin-top: 60px;
+  }
+  .webinar-content-left p {
+    padding: 0px;
+  }
+  .joinButton {
+    margin-top: 30px;
+    margin-left: 32vw;
+  }
+
+  .learn {
+    flex-direction: column;
+  }
+
+  .learnLeft {
+    margin-left: 0;
+  }
+  .learnLeft img {
+    height: 180px;
+    margin-top: 14px;
+    margin-left: -1px;
+  }
+  .learnRight {
+    margin-left: 0;
+    text-align: left;
+  }
+  .learnBottom {
+    margin: 20px;
+    margin-left: 5vw;
+  }
+  .webinarContent img {
+    width: 300px;
+    height: 200px;
+  }
+  .cetification img {
+    height: 220px;
+    margin-bottom: 100px;
+  }
+}
